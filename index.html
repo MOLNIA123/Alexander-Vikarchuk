@@ -58,6 +58,17 @@
       border-radius: 12px;
     }
 
+    .download-link {
+      text-align: center;
+      margin-top: 1em;
+    }
+
+    .download-link a {
+      color: var(--main-color);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
     @media (max-width: 600px) {
       .qr img {
         width: 150px;
@@ -78,13 +89,14 @@
     <h1>Сканируйте QR-код для просмотра презентации</h1>
     <div class="qr">
       <img src="Александр_Викарчук.png" alt="QR Code к презентации" />
-
+    </div>
+    <div class="download-link">
       <h2>Скачать презентацию</h2>
-  <p style="text-align:center;">
-    <a href="https://docs.google.com/presentation/d/1ozCdgvrdb5bjwG5mOnrXHLQP3BeSGyHZ/edit?usp=drive_link&ouid=115502613393174272270&rtpof=true&sd=true" target="_blank" style="color: var(--main-color); font-weight: bold; text-decoration: none;">
-      Нажмите здесь, чтобы скачать презентацию (PDF)
-    </a>
-  </p>
+      <p>
+        <a href="https://docs.google.com/presentation/d/1ozCdgvrdb5bjwG5mOnrXHLQP3BeSGyHZ/export?format=pptx" target="_blank">
+          Нажмите здесь, чтобы скачать презентацию (.pptx)
+        </a>
+      </p>
     </div>
   </div>
 
